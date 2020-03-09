@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?scenebuilder-stylesheet styles/estiloPrueba.css?>
+
+<AnchorPane fx:id="fondo" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" stylesheets="@../styles/estiloPrueba.css" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pruebaproyecto.ProyectoGIATController">
+   <children>
+      <Pane fx:id="menuInicio" layoutX="14.0" prefHeight="600.0" prefWidth="209.0">
+         <children>
+            <TextField fx:id="emailInput" layoutX="29.0" layoutY="233.0" />
+            <PasswordField fx:id="passwdInput" layoutX="30.0" layoutY="288.0" />
+            <Label fx:id="textoEmail" layoutX="27.0" layoutY="211.0" prefHeight="15.0" prefWidth="155.0" text="Email o nombre de usuario" textFill="WHITE">
+               <font>
+                  <Font name="DejaVu Sans Bold" size="10.0" />
+               </font>
+            </Label>
+            <Label fx:id="textoPasswd" layoutX="27.0" layoutY="267.0" prefHeight="15.0" prefWidth="155.0" text="Contraseña" textFill="WHITE">
+               <font>
+                  <Font name="DejaVu Sans Bold" size="10.0" />
+               </font>
+            </Label>
+            <Button fx:id="botonInicio" layoutX="39.0" layoutY="337.0" mnemonicParsing="false" text="Iniciar sesión" />
+            <Button fx:id="registrate" layoutX="49.0" layoutY="400.0" mnemonicParsing="false" text="Registrate" />
+            <Label fx:id="textInvitado" layoutX="17.0" layoutY="449.0" text="¿Quieres acceder como invitado?" textFill="WHITE">
+               <font>
+                  <Font name="EmojiOne Color SVGinOT" size="12.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="143.0" fitWidth="209.0" layoutY="37.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../images/logo.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
