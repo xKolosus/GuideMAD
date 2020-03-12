@@ -27,14 +27,14 @@
                   <Font name="DejaVu Sans Bold" size="10.0" />
                </font>
             </Label>
-            <Button fx:id="botonInicio" layoutX="39.0" layoutY="337.0" mnemonicParsing="false" text="Iniciar sesión" />
+            <Button fx:id="iniciarSesion" layoutX="39.0" layoutY="337.0" mnemonicParsing="false" onAction="#handleButtonAction" text="Iniciar sesión" />
             <Button fx:id="registrate" layoutX="49.0" layoutY="400.0" mnemonicParsing="false" text="Registrate" />
-            <Label fx:id="textInvitado" layoutX="17.0" layoutY="449.0" text="¿Quieres acceder como invitado?" textFill="WHITE">
+            <Label fx:id="textInvitado" layoutX="17.0" layoutY="460.0" text="¿Quieres acceder como invitado?" textFill="WHITE">
                <font>
                   <Font name="EmojiOne Color SVGinOT" size="12.0" />
                </font>
             </Label>
-            <ImageView fitHeight="143.0" fitWidth="209.0" layoutY="37.0" pickOnBounds="true">
+            <ImageView fitHeight="116.0" fitWidth="173.0" layoutX="18.0" layoutY="42.0" pickOnBounds="true">
                <image>
                   <Image url="@../images/logo.png" />
                </image>

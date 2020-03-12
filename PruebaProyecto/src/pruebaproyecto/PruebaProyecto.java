@@ -20,13 +20,11 @@ public class PruebaProyecto extends Application {
     @Override
     public void start(Stage stage) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("/scenes/ProyectoGIAT.fxml"));
-        
         Scene scene = new Scene(root);
         
         stage.setScene(scene);
         stage.show();
         stage.setTitle("Guide MAD");
-        scene.getStylesheets().add("../styles/estiloPrueba.css");
     }
 
     /**
